@@ -30,6 +30,7 @@ jobs:
         run: |
          ansible-galaxy collection install -r molecule/requirements.yml
          ansible-galaxy collection install community.docker
+
       - name: Run Molecule
         env:
           MOLECULE_VERBOSITY: 3

@@ -5,3 +5,5 @@
 /bundle_tmp*
 /bundle.Dockerfile
 
+
+.idea/
